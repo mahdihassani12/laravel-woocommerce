@@ -1,0 +1,62 @@
+div.pagination_links ul.pagination{
+  margin: 0;
+  margin-left: 15px;
+}
+.wrongmessages{
+    background: #f39d00c9 !important;
+    border-radius: 0px;
+    border: none;
+    color: black !important;
+    position: fixed;
+    z-index: 44;
+    left: 10px;
+    bottom: 0px;
+    min-width: 250px;
+}
+.successmessages{
+	background: #07ff0773 !important;
+    border-radius: 0px;
+    border: none;
+    color: black !important;
+    position: fixed;
+    z-index: 44;
+    left: 10px;
+     min-width: 250px;
+    bottom: 0px;
+}
+.comment_approved{
+    background: none;
+    color: #7272ff;
+}
+.comment_approve_form{
+    display: inline;
+}
+
+.row_options {
+	visibility: hidden;
+	margin:0px;
+}
+table tr:hover .row_options {
+	visibility: visible;
+}
+.row_options a{
+	font-size: 12px;
+}
+.text-danger{color: #d40a0a}
+.text-warning{color: #c78510}
+.downloads_table th, td{
+    width: 20%;
+}
+.downloads_table th:last-child{
+    width: 40%;
+}
+.downloads_table td:last-child{
+    width: 40%;
+}
+.content_amounts{
+    padding: 10px;
+}
+.status{
+    padding: 3px 10px;
+    border-radius: 10px;
+}
